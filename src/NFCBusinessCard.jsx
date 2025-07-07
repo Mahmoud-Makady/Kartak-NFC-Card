@@ -46,12 +46,12 @@ export default function NFCBusinessCard() {
               <FontAwesomeIcon icon={faWhatsapp} /> WhatsApp Now
             </a>
             <a
-              href="https://wa.me/971502089718"
+              href="https://kartak-nfc.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-3 bg-zinc-800 hover:bg-zinc-700 px-6 py-3 rounded-xl text-white "
             >
-              <FontAwesomeIcon icon={faGlobe} /> Website
+              <FontAwesomeIcon icon={faGlobe} /> Visit Our Website
             </a>
           </div>
 
