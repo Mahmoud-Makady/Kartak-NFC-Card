@@ -6,6 +6,7 @@ import {
   faGlobe,
   faPhone,
   faEnvelope,
+  faAddressCard,
 } from "@fortawesome/free-solid-svg-icons";
 
 export default function NFCBusinessCard() {
@@ -52,6 +53,13 @@ export default function NFCBusinessCard() {
               className="flex items-center justify-center gap-3 bg-zinc-800 hover:bg-zinc-700 px-6 py-3 rounded-xl text-white "
             >
               <FontAwesomeIcon icon={faGlobe} /> Visit Our Website
+            </a>
+            <a
+              href="/mohamed-mostafa.vcf"
+              download
+              className="flex items-center justify-center gap-3 bg-zinc-800 hover:bg-zinc-700 px-6 py-3 rounded-xl text-white "
+            >
+              <FontAwesomeIcon icon={faAddressCard} /> Save Contact
             </a>
           </div>
 
