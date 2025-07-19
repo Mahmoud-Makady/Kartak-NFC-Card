@@ -3,24 +3,87 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="icon"
-      type="image/png"
-      href="public/favicon-96x96.png"
-      sizes="96x96"
-    />
+    <link rel="icon" type="image/png" href="public/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="public/favicon.svg" />
     <link rel="shortcut icon" href="public/favicon.ico" />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="public/apple-touch-icon.png"
-    />
+    <link rel="apple-touch-icon" sizes="180x180" href="public/apple-touch-icon.png" />
     <link rel="manifest" href="public/site.webmanifest" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet" />
     <title>Kartak NFC Card</title>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <div class="min-h-screen text-white flex items-center justify-center px-4 pb-2">
+      <div class="container shadow-lg rounded-xl backdrop-blur-md border border-zinc-800 max-w-md mx-auto">
+        <div class="w-full text-center space-y-6 p-8">
+          <!-- Logo -->
+          <div class="flex justify-center">
+            <img src="public/Kartak.png" alt="KARTAK Logo" class="object-contain logo" />
+          </div>
+
+          <div>
+            <h1 class="text-2xl font-bold">
+              Kartak – Your Smart Identity in One Tap
+            </h1>
+          </div>
+
+          <div class="flex flex-col sm:flex-row items-center justify-center gap-4 flex-wrap">
+            <a
+              href="tel:+971507817504"
+              class="flex items-center justify-center gap-3 bg-zinc-800 hover:bg-zinc-700 px-6 py-3 rounded-xl text-white action-btn"
+            >
+              <i class="fas fa-phone"></i> Call me
+            </a>
+            <a
+              href="mailto:hamadamostafa970@gmail.com"
+              class="flex items-center justify-center gap-3 bg-zinc-800 hover:bg-zinc-700 px-6 py-3 rounded-xl text-white action-btn"
+            >
+              <i class="fas fa-envelope"></i> Send Email
+            </a>
+            <a
+              href="https://wa.me/971502089718"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flex items-center justify-center gap-3 bg-zinc-800 hover:bg-zinc-700 px-6 py-3 rounded-xl text-white action-btn"
+            >
+              <i class="fab fa-whatsapp"></i> WhatsApp Now
+            </a>
+            <a
+              href="https://kartak-nfc.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flex items-center justify-center gap-3 bg-zinc-800 hover:bg-zinc-700 px-6 py-3 rounded-xl text-white action-btn"
+            >
+              <i class="fas fa-globe"></i> Visit Our Website
+            </a>
+            <a
+              href="public/mohamed-mostafa.vcf"
+              download
+              class="flex items-center justify-center gap-3 bg-zinc-800 hover:bg-zinc-700 px-6 py-3 rounded-xl text-white action-btn"
+            >
+              <i class="fas fa-address-card"></i> Save Contact
+            </a>
+          </div>
+
+          <!-- Descriptions -->
+          <div class="pt-6 border-t border-zinc-700 text-sm space-y-3">
+            <p>
+              Discover <span class="kartak">Kartak</span> — the smart NFC
+              business cards designed for professionals and entrepreneurs.
+              Instantly share your contact details, social links, and more with
+              just one tap. Upgrade your network today!
+            </p>
+            <p dir="rtl">
+              اكتشف <span class="kartak">كارتك</span> — كروت NFC ذكية مصممة
+              للمحترفين وأصحاب الأعمال، شارك بياناتك وروابطك الاجتماعية بسرعة
+              وسهولة بلمسة واحدة، طور تواصلك مع عملائك اليوم
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
