@@ -1,8 +1,6 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import { VitePWA } from "vite-plugin-pwa";
-import pwa192 from "./public/pwa-192x192.png";
-import pwa512 from "./public/pwa-512x512.png";
 
 export default defineConfig({
   plugins: [
@@ -24,12 +22,12 @@ export default defineConfig({
         display: "standalone",
         icons: [
           {
-            src: pwa192,
+            src: "pwa-192x192.png",
             sizes: "192x192",
             type: "image/png",
           },
           {
-            src: pwa512,
+            src: "pwa-512x512.png",
             sizes: "512x512",
             type: "image/png",
           },
