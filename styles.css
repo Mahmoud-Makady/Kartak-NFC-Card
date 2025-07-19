@@ -195,7 +195,9 @@ a i {
   color: #e6b537;
   font-size: 1.5rem;
 }
-
+.content {
+  border-top: 1px solid rgba(255, 255, 255, 0.253);
+}
 /* Responsive design */
 @media (min-width: 640px) {
   .sm\:flex-row {
